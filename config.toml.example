@@ -1,0 +1,15 @@
+# Copy this file as `config.toml` and fill in your own values before use.
+
+# List of wallet addresses to monitor
+address_list = [
+  "0x1234567890abcdef1234567890abcdef12345678",
+  "0xabcdef1234567890abcdef1234567890abcdef12",
+]
+
+# Slack Webhook URL for notifications
+slack_webhook_url = "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
+
+# Interval between API calls in seconds (Optional)
+# interval = 5
+
+# api_base = "https://special.indexer.example.com/"
